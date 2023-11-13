@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Lucida Sans;
+    background-image: url(forza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-form{
+width:300px;
+box-shadow: 0 0 3px rgba(253, 3, 3, 0.3);
+background: white;
+padding:20px;
+margin:8% auto 0;
+text-align:center;
+}
+.sign-up-form h1{
+    color:yellow;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius:20px;
+    padding:10px;
+    margin:10px 0;
+    width:100%;
+    border:1px solid red;
+    outline: none;
+}
+button{
+    color:green;
+    width:100%;
+    padding:10px;
+    border-radius:20px;
+    font-size: 15px;
+    margin:10px 0;
+    border:none;
+    outline:none;
+    cursor:pointer;
+}
+.signup-btn{
+    background-color: blue;
+}
+.google-btn{
+    background-color: darkorange;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: white;
+    width: 30px;
+    margin:-19px auto 10px;
+}
+img{
+    width:70px;
+    margin-top: -50%;
+}
