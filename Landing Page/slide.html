@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slides</title>
+
+<style>
+    body{
+        font-family:Tahoma;
+        overflow: hidden;
+        background-image: url("crew.jpg");
+    }
+.slide{
+    position: relative;
+    width: 754px;
+    height:292px;
+    margin:115px auto 0;
+}
+
+.slide .next,
+.slide .back
+{
+    position:absolute;
+    top:50%;
+    width:40px;
+    margin-top: -20px;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    cursor:pointer;
+    background-color:white;
+    color:black;
+    transition:all 0.7s;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.slide .next:hover,
+.slide .back:hover{
+    opacity:1;
+    background-color:white;
+}
+
+.slide .back{
+    left: -70px;
+}
+
+.slide .back::before{
+    content: '<';
+}
+
+.slide .next{
+    right: -70px;
+}
+
+.slide .next::before{
+    content: '>';
+}
+
+.slide > ul{
+    list-style: none;
+    position: relative;
+    width:754px;
+    height:292px;
+    margin:0;
+    padding:0;
+}
+
+.slide > ul > li{
+    overflow:hidden;
+    position:absolute;
+    z-index: 0;
+    left:377px;
+    top:147px;
+    width:0;
+    height: 0;
+    margin: 0;
+    padding:0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+    
+<div class="slide">
+    <div class="next"></div>
+    <div class="back"></div>
+<ul>
+     <li>
+        <img src="audir8.png" alt="">
+
+     </li>   
+
+     <li>
+        <img src="forza.jpg" alt="">
+        
+     </li> 
+
+     <li>
+        <img src="crew.jpg" alt="">
+        
+     </li> 
+
+     <li>
+        <img src="nfs.jpg" alt="">
+        
+     </li> 
+
+     <li>
+        <img src="ford.png" alt="">
+        
+     </li> 
+
+     <li>
+        <img src="m3.png" alt="">
+        
+     </li> 
+</ul>
+
+
+    </div>
+
+</body>
+</html>
