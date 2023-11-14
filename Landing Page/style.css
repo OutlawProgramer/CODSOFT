@@ -134,7 +134,7 @@ button:hover{
 }
 /*this is where i change the background color behind the cards or the entire body call it what you want */
 body{
-    background:#009688;
+    background:;
 }
 /*this one right here is where you change the properties of the cards*/
 .card{
@@ -190,3 +190,49 @@ text-decoration: none;
     background-image: url(crew.jpg);
     
 }
+/*another edit begins here*/
+/*aliging them with css*/
+*{
+    box-sizing: border-box;
+}
+
+.column{
+    float:left;
+    width:33.33%;
+    padding:5px;
+}
+.row::after {
+    content:"";
+    display:table;
+    clear:both;
+}
+
+.box img{
+    display:block;
+    width:100%;
+    border-radius:5px;
+
+}
+.box:hover{
+transform:scale(1.3);
+z-index:2;
+}
+/*ends here*/
+.box1{
+    background: yellow;
+    margin-top: 1px;
+    padding:20px;
+    color:white;
+    height:500px;
+}
+.container_Car{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+
+
+
