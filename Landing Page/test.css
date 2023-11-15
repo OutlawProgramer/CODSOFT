@@ -1,4 +1,198 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+/* the code below has a link to the background image, add configuration of the background image and also makes it dim*/
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(audir8.png);
+    background-size: cover;
+    background-position: center;
+}
 
+/*this code is for tee navigation bar*/
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* logo code*/
+.logo{
+    width:170px;
+    cursor: pointer;
+}
+
+/*navigation bar list code edit keep up*/
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+/*this one is for the ancer link code on the html basically the links */
+.navbar ul li a{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+}
+
+/*this code makes our list on the nav to have effects suct as line when you hover above the sign up and speed of the hover */
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width:0;
+    background: red;
+    position:absolute;
+    left: 0;
+    bottom:-10px;
+    transition: 0.5s;
+}
+
+
+.navbar ul li:hover::after{
+width: 100%;
+}
+
+/*this code is for content*/
+.content{
+    width:100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+/*this code is for your heading one*/
+.content h1{
+    font-size:50px;
+    color: aqua;
+    margin-top: 10px;
+    font-family: Engravers mt;
+}
+/*this code is for your paragaph*/
+.content p{
+    margin:20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+/*this is for the button look in your content*/
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight:bold;
+    border: 2px solid aqua;
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+/*for hover effects for your buttons */
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border:none;
+}
+
+/*this code is for the cards that im creating */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+
+/*this code is for the cards that im creating */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:#85783e;
+    
+    border-bottom: 5px solid aqua;
+}
+/*this is where i change the background color behind the cards or the entire body call it what you want */
+
+/*this one right here is where you change the properties of the cards*/
+.card{
+    background: rgb(165, 163, 163);
+    width:270px;
+    margin:10px;
+    border-radius:15px;
+}
+/*this covers the section where you image goes*/
+.card-image{
+  
+    height: 170px;
+    margin-bottom: 15px;
+    background-size:cover;
+    border-radius:15px 15px 0 0;
+}
+/* headings for the cards*/
+.card h2{
+padding:10px;
+}
+/*paragraphs on the card*/
+.card p{
+    padding:10px;
+}
+/* the a link on the card */
+.card a{
+display: block;
+color:aqua;
+padding: 15px 20px;
+background-color: black;
+text-align: center;
+margin: 20px 50px;
+text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(159, 189, 189);
+    color: aliceblue;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition:all 1s ease;
+}
+
+/*this is the first picture displayed on our card */
+.forza{
+    background-image: url(forza.jpg);
+}
+
+.nfs{
+    background-image: url(nfs.jpg);
+}
+
+.crew{
+    background-image: url(crew.jpg);
+    
+}
+/*another edit begins here*/
+/*aliging them with css*/
 *{
     box-sizing: border-box;
 }
@@ -10,7 +204,7 @@
 }
 .row::after {
     content:"";
-    display:flex;
+    display:table;
     clear:both;
 }
 
@@ -28,16 +222,18 @@ z-index:2;
 .box1{
     background: yellow;
     margin-top: 1px;
-    padding:20px;
+    padding:40px;
     color:white;
     height:500px;
 }
-.container{
+.container_Car{
     display: flex;
-    flex-wrap:wrap;
-    width:100%;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
 }
-.container img{
-    width:100%;
-    height:200Px;
-}
+
+
+
+
+
+

@@ -133,9 +133,7 @@ button:hover{
     flex-wrap: wrap;
 }
 /*this is where i change the background color behind the cards or the entire body call it what you want */
-body{
-    background:;
-}
+
 /*this one right here is where you change the properties of the cards*/
 .card{
     background: rgb(165, 163, 163);
