@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:Lucida Sans;
+    background-color:rgb(100, 100, 161);
+    background-size: cover;
+    background-position: center;
+}
+
+/*this code is for tee navigation bar*/
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family:'Lucida Grande';
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color:rgb(112, 185, 185);
+    cursor: pointer;
+}
+.sign-up-form{
+width:300px;
+box-shadow: 0 0 3px rgba(253, 3, 3, 0.3);
+background: rgb(192, 169, 169);
+padding:20px;
+margin:8% auto 0;
+text-align:center;
+}
+.sign-up-form h1{
+    color:rgb(26, 48, 48);
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius:20px;
+    padding:10px;
+    margin:10px 0;
+    width:250px;
+    border:1px solid rgb(8, 8, 8);
+    outline: none;
+}
+
+
+/*button*/
+button{
+    width:200px;
+    font-size:19px;
+    font-family:'Lucida Grande';
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;    
+    border: 2px solid aqua;
+    background: transparent;
+    color:rgb(25, 32, 32);
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+/*for hover effects for your buttons */
+span{
+    background: #41ecdb;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border:none;
+}
+/*button*/
+
+.signup-btn{
+    background-color: rgb(112, 138, 168);
+}
+.google-btn{
+    background-color: rgb(112, 138, 168);
+    
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: white;
+    width: 30px;
+    margin:-19px auto 10px;
+}
+

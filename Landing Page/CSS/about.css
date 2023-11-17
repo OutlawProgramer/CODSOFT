@@ -7,7 +7,7 @@
 
 
     .box3{
-        background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(..//images/blank.jpg);
+        background-color:rgb(190, 190, 247);
         margin-top: 1px;
         padding:18px;
         width: 100%;
@@ -17,11 +17,14 @@
     }
 
 
-.title{
+.about{
     text-align: center;
+    font-family: 'Times New Roman';
     font-size: 45px;
     font-weight: bold;
     margin-bottom: 70px;
+    color: black;
+    
 }
 
 .about-content{
@@ -49,11 +52,13 @@ transform: scale(1.1);
 .content2{
     flex: 1;
     margin-left: 20px;
+    
 }
 
 .content2 p{
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.6;
+    font-family: 'Times New Roman';
 }
 .readmore{
     margin-top: 20px;
@@ -80,7 +85,7 @@ transform: scale(1.1);
         margin: 0;
         margin-bottom: 20px;
     }
-    .title{
+    .about{
         font-size: 38px;
         margin-bottom: 50px;
     }

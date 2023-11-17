@@ -1,0 +1,86 @@
+.navbar{
+    width:85%;
+    margin:auto;
+    padding:10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    font-family:'Lucida Grande';
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    color:rgb(112, 185, 185);
+    cursor: pointer;
+}
+
+/*another edit begins here*/
+body{
+    background-color: rgb(97, 91, 91);
+}
+img{
+    width: 400px;
+    margin:10px;
+    object-fit:contain;
+    object-position:bottom;
+    justify-content: center;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5;
+}
+
+h3{
+    font-family: Engravers mt;
+    font-size:55px;
+    margin-top: 10px;
+    color:transparent;
+    -webkit-text-stroke: 1px rgb(14, 12, 12);
+    background: url(../images/blue.jpg);
+    -webkit-background-clip:text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+/*ends here*/
+
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;    
+    border: 2px solid rgb(141, 197, 223);
+    background: transparent;
+    color:white;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+/*for hover effects for your buttons */
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition:0.5s;
+}
+
+button:hover span{
+    width:100%;
+}
+button:hover{
+    border:none;
+}

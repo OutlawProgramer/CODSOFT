@@ -4,26 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>www.The_OutLaws_signUp_page</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="..//CSS/register.css">
+
 </head>
 <body>
-    <div class="header">
-    <a href="home.html" class="logo">The OutLaws</a>
+    <div class="navbar">
+        <h1>The OutLaw's</h1>
+        <ul>
+           <a href="../HTML/home.html"><button type="button"><span></span>HOME</button></a>
+        </ul>
     </div>
+
+    
     <div class="sign-up-form">
-        
-        <img src="sign.jpg">
         <h1> Sign Up Now </h1>
         <form>
                 <input type="email" class="input-box" placeholder="your email">
                 <input type="password" class="input-box" placeholder="Your password">
-                <p><span><input type="checkbox"></span> I agree to the terms of services</p>
-                <button type="button" class="signup-btn">Sign Up</button>
+                <p><input type="checkbox">I agree to the terms of services</p>
+                <a href="../HTML/home.html"><button type="button" class="signup-btn" onclick="call('Welcome to the OutLaws')">Sign Up</button></a>
                 <hr>
                 <p class="or">OR</p>
-                <button type="button" class="google-btn">login with Google Account</button>
+                <button type="button" class="google-btn"  onclick="call('hello')">Google Account</button>
                 <p>Do you have an Account ?<a href="">Sign in</a></p>
+                <script>
+                    function call(msg){
+                        alert(msg)
+                    }
+                </script>
         </form>
+        </div>
+        <br>
+        
+        <br>
+
 </body>
 </html>
