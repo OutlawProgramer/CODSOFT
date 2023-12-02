@@ -96,7 +96,7 @@ width: 100%;
 }
 /*this is for the button look in your content*/
 button{
-    width:200px;
+    width:150px;
     padding:15px 0;
     text-align: center;
     margin: 20px 10px;
@@ -216,6 +216,7 @@ button:hover{
 }
 body{
     background-color:rgb(190, 190, 247);
+    
 }
 
 
@@ -304,7 +305,7 @@ text-decoration: none;
 
 
 img{
-    width: 400px;
+    width: 368px;
     height: 300px;
     padding: 5px;
     margin:10px;
@@ -321,7 +322,7 @@ img:hover{
 
 h3{
     font-family: Engravers mt;
-    font-size:55px;
+    font-size:50px;
     margin-top: 10px;
     color:transparent;
     -webkit-text-stroke: 1px rgb(199, 172, 172);
